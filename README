@@ -1,1 +1,28 @@
-FIRST COMMIT
+General Outline:
+
+
+	- Activity: Facilitates the running, interaction, and saving of 
+		the data. Is able to load previously entered data through
+		a text-file or some other medium.
+	
+	
+	- Class: An object that holds the various categories that make up the grade of that particular
+			subject. Can on-command return the current grade based upon
+			the current data.
+	
+	- Category: A portion of what makes up a class grade. Is assigned a weight
+				and contains some amount of grades
+				
+	- Grade: A single grade. Only contains the value of the grade 
+			and the name of the assignment.
+			
+			
+			
+Additional Features:
+	- Editable grading scale
+	- "What do I need to get a __?" functionality
+	- Semester GPA (Weighing classes by credits)
+	
+	
+	
+Feel free to edit this and make any changes you see fit!
