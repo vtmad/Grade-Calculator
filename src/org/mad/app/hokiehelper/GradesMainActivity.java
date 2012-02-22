@@ -10,4 +10,5 @@ public class GradesMainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
     }
+    //Test comment
 }
