@@ -12,6 +12,5 @@ public class GradesMainActivity extends Activity {
     }
     //Test comment
     // Test comment from COREY <(._. <)
-    
-    // hello
+    // If this shows up on the internet, I will be happy.
 }
