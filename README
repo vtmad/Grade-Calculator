@@ -1,11 +1,9 @@
-General Outline:
-
+General Class Outline:
 
 	- Activity: Facilitates the running, interaction, and saving of 
 		the data. Is able to load previously entered data through
-		a text-file or some other medium.
-	
-	
+		the use of SQL database files (built in to Android).
+
 	- Class: An object that holds the various categories that make up the grade of that particular
 			subject. Can on-command return the current grade based upon
 			the current data.
@@ -15,14 +13,12 @@ General Outline:
 				
 	- Grade: A single grade. Only contains the value of the grade 
 			and the name of the assignment.
-			
-			
-			
-Additional Features:
+
+	
+App Features:
 	- Editable grading scale
 	- "What do I need to get a __?" functionality
 	- Semester GPA (Weighing classes by credits)
-	
-	
-	
+
+
 Feel free to edit this and make any changes you see fit!
