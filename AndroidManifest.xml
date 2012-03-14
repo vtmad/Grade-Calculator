@@ -8,11 +8,12 @@
 
     <application
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
         <activity
-            android:label="@string/app_name"
-            android:name=".GradesMainActivity" >
-            <intent-filter >
+            android:name=".GradesMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
