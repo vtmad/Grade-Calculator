@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, GradesMainActivity!</string>
-    <string name="app_name">Grades</string>
+    <!-- Text -->    
+    <string name="title">Hokie GPA Calculator</string>
+    <string name="app_name">GPACalculator</string>
+    <string name="StrStartGPATerm">Calculate GPA for a Term</string> <!-- directs to gpaTermAdd -->
+    <string name="StrStartGPAOverall">Calculate your Overall GPA</string>
+    <string name="proceed">Proceed</string>
+    <string name="StrStartGPACalc">Calculate GPA for a Term</string> <!-- directs to gpaTermCalc -->
+    <string name="calculate">Calculate</string>
+    <string name="addRow">Add Course</string>
+    <string name="finalGPATxt">Your calculated GPA for the term is: </string>
+    <string name="finalGPAResult">No GPA</string>
+    <string name="finalMainMenuBtn">Return to Main Menu</string>
+
+<!-- Colors -->
+    <color name="maroon">#610B0B</color>
+    <color name="orange">#CC5500</color>
+    
+    <string-array name="courses_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    
+    <string-array name="grades_array">
+        <item>"A"</item>
+        <item>"A-"</item>
+        <item>"B+"</item>
+        <item>"B"</item>
+        <item>"B-"</item>
+        <item>"C+"</item>
+        <item>"C"</item>
+        <item>"C-"</item>
+        <item>"D+"</item>
+        <item>"D"</item>
+        <item>"D-"</item>
+        <item>"F"</item>
+    </string-array>
+    
+    <string-array name="credits_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    
+<!-- Spinners -->
+    <string name="SPNnumCourses">Number of Courses</string>
+    <string name="SPNnumGrade">Grade</string>
+    <string name="SPNnumCredits">Credit Hours</string>
 
 </resources>

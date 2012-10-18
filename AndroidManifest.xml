@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.NoTitleBar" >
         <activity
-            android:name=".GradesMainActivity"
+            android:name=".GPAHome"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".GPATermAdd" />
+        <activity android:name=".GPATermCalc" />
+        <activity android:name=".GPATermFinal" />
+        <activity android:name=".GPAOverAllAdd" />
+        <activity android:name=".GPAOverCalc" />
+        <activity android:name=".GPAOverFinal" />
     </application>
 
 </manifest>
