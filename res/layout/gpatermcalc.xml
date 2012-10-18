@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/maroon"
+    >
+ 
+    <TableLayout
+	    android:id="@+id/TableLayout0"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="0">
+	    
+	    <TableRow
+	     android:id="@+id/TableRow0"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_marginTop="5dp"
+	     android:layout_marginBottom="5dp" >
+	
+			<Button android:id="@+id/btnAddRow" 
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:text="Add row"></Button>
+			
+			<!--  android:layout_marginTop="15dp"   android:layout_marginBottom="15dp" android:gravity="center_horizontal"-->
+			<Button android:id="@+id/startGPATermFinal"
+		    	android:layout_width="180dip"
+			    android:layout_height="wrap_content"
+		 	    android:text="@string/calculate"
+		 	    android:layout_marginRight="15px"
+		 	    android:layout_marginLeft="0px"/>
+	
+		</TableRow>
+	
+	</TableLayout>
+ 
+  <TableLayout android:id="@+id/TableLayout0_5" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:stretchColumns="0">
+ 
+  
+    <TableRow
+	     android:id="@+id/TableRow0"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content" >
+	     
+	        <TextView android:id="@+id/TableRow1_1" 
+	            android:layout_height="wrap_content"
+	            android:text="Course"
+	            android:layout_width="80dp"
+	            android:layout_marginLeft="20dp" />
+	        <TextView android:id="@+id/TableRow1_2" 
+	            android:layout_width="80dp" 
+	            android:layout_height="wrap_content"
+	            android:text="Grade"
+	            android:layout_gravity="center" 
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginRight="0dp" />
+	        <TextView android:id="@+id/TableRow1_3" 
+	            android:layout_width="80dp" 
+	            android:layout_height="wrap_content"
+	            android:text="Credit Hours"
+	            android:layout_gravity="center"
+	            
+	            android:layout_marginRight="50dp" />
+	    </TableRow>
+  </TableLayout>
+  
+  <ScrollView android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+  <TableLayout android:id="@+id/TableLayout01" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:stretchColumns="0">
+    <TableRow android:id="@+id/TableRow01" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+	      <TextView android:id="@+id/TextView01" 
+	          android:layout_width="wrap_content" 
+	          android:layout_height="wrap_content" 
+	          android:text="1"
+	          ></TextView>
+			
+	      <Spinner
+			    android:id="@+id/TableRow2_2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:entries="@array/grades_array"
+			    android:layout_marginTop="10dp"
+			    android:prompt="@string/SPNnumGrade"/>  
+<!--  		<ListView 
+			    android:id="@+id/android:list"
+			    />-->	
+	        <Spinner
+			    android:id="@+id/TableRow2_3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:entries="@array/credits_array"
+			    android:layout_marginTop="10dp"
+			    android:prompt="@string/SPNnumCredits"/>  
+
+    </TableRow>
+ 
+  </TableLayout>
+</ScrollView>
+</LinearLayout>

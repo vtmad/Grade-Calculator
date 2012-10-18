@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+	        
+<RelativeLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/maroon"
+	>
+		<TableLayout
+		    android:id="@+id/finalTable"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:stretchColumns="0">
+		    
+		    <TableRow
+		     android:id="@+id/TableRow1"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:layout_marginTop="5dp"
+		     android:layout_marginBottom="5dp" >
+				
+				<!--  android:layout_marginTop="15dp"   android:layout_marginBottom="15dp" android:gravity="center_horizontal"-->
+	
+	           <!--  <TextView
+                    android:id="@+id/finalTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/finalGPATxt"
+                    android:textSize="24dp"
+                    android:padding="20dp"
+                    android:gravity="center" /> -->
+		        <TextView
+		            android:id="@+id/finalTxt"
+		            android:layout_width="20px"
+		            android:layout_height="wrap_content"
+		            android:text="@string/finalGPATxt"
+		            android:textSize="24dp"
+		            android:padding="0dp"
+		            android:gravity="center" />
+		
+			</TableRow>
+
+		    <TextView
+		        android:id="@+id/finalGPA"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="0px"
+		      
+		        android:text="@string/finalGPAResult" />
+
+		</TableLayout>
+      
+       <Button
+		    android:id="@+id/finalMainMenuBtn"
+		    android:layout_width="188dip"
+		    android:layout_height="wrap_content"
+		    android:text="@string/finalMainMenuBtn"
+		    android:layout_below="@+id/finalTable"
+		    android:layout_centerHorizontal="true"
+		     />
+	<!--        
+	    <Button
+		    android:id="@+id/finalBack"
+		    android:layout_width="188dip"
+		    android:layout_height="wrap_content"
+		    android:text="Back"
+		    android:layout_below="@+id/finalMainMenuBtn"
+		    android:layout_centerHorizontal="true"
+		     />
+	     -->    
+</RelativeLayout>
+	        
+	 <!--   </TableRow> --> 
+	
