@@ -19,6 +19,7 @@ import android.view.View.OnClickListener;
 public class GPAHome extends Activity {
 
     /** Called when the activity is first created. */
+    // some comment
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
